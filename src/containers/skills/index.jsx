@@ -1,10 +1,10 @@
 import React from "react";
 
-const About=()=>{
+const Skills=()=>{
     return(
         <div>
             Skills page
         </div>
     )
 }
-Skills;
+export default Skills;
