@@ -1,27 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Robot+Slab:wght@5008display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
 
 :root{
 
-    --yellow-theme-background-color: #1d1d1d;
-    --yellow-theme-main-color: #ffdd40;
-    ---yellow-theme-sub-text-color: #ffffff;
-    --yellow-theme-nav-backgroud-color: #181818;
 
-
+    --yellow-theme-background-color : #1d1d1d;
+    --yellow-theme-main-color : #ffdd40;
+    --yellow-theme-sub-text-color : #ffffff;
+    --yellow-theme-nav-background-color : #181818;
 }
-
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-
-
 }
 
 html {
-    font-size: 63%;
+    font-size: 62.5%;
     height: 100%;
 }
 
