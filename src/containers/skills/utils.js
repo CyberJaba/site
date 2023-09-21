@@ -28,24 +28,24 @@ export const skillsData = [
           percentage: "65",
         },
         {
-          skillName: "KOTLIN",
-          percentage: "35",
+          skillName: "JAVASCRIPT",
+          percentage: "65",
         },
       ],
     },
     {
-      label: "DATABASES",
+      label: "SOUND DESIGN",
       data: [
         {
-          skillName: "SQL",
-          percentage: "70",
+          skillName: "FL STUDIO",
+          percentage: "90",
         },
         {
-          skillName: "MONGO DB",
-          percentage: "65",
+          skillName: "ABLETON",
+          percentage: "55",
         },
         {
-          skillName: "ORACLE",
+          skillName: "AUDACITY",
           percentage: "85",
         },
       ],

@@ -1,42 +1,32 @@
 export const data = {
     experience: [
+    
       {
-        title: "Consultant",
-        subTitle: "Miami, FL",
+        title: "URQT Studios",
+        subTitle: "",
         description:
-          " User Experience, Visual Design",
+          "Web Development, Sound Design, Sound Track, Game Design",
       },
       {
-        title: "Senior Consultant",
-        subTitle: "London, UK",
+        title: "Key-ON",
+        subTitle: "",
         description:
-          "Web development, Databases, Backend developement",
-      },
-      {
-        title: "Project Manager",
-        subTitle: "Bangalore, INDIA",
-        description:
-          "Creative Direction Project Management, Team Leading",
+          "Creative Direction Project Management, Level Design",
       },
     ],
     education: [
       {
-        title: "Secondary",
-        subTitle: "ABC School",
+        title: "ryko",
+        subTitle: "",
         description:
-          "10th Grade",
+          "Production, Mastering",
       },
       {
-        title: "Higher Secondary",
-        subTitle: "ABC School of higher education",
+        title: "Bogdan Bozchko",
+        subTitle: "",
         description:
-          "12th Grade in Science",
+          "Mastering",
       },
-      {
-        title: "B.Tech",
-        subTitle: "XYZ institute of technology",
-        description:
-          "Bachelor of technology in computer science",
-      },
+    
     ],
   };

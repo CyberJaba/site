@@ -12,35 +12,24 @@ import { useState } from "react";
 const portfolioData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "URQT STUDIOS",
     image: ImageOne,
-    link: "",
+    link: "https://urqt-studios.itch.io/modern-knight",
   },
   {
     id: 3,
-    name: "Notes App",
-    link: "",
+    name: "SOUNDCOUD",
+    link: "https://soundcloud.com/remato1",
     image: ImageTwo,
   },
   {
     id: 2,
-    name: "Supplier Design",
+    name: "GIT HUB",
     image: ImageThree,
-    link: "",
+    link: "https://github.com/CyberJaba",
   },
-  {
-    id: 2,
-    name: "Todo App",
-    image: ImageFour,
-
-    link: "",
-  },
-  {
-    id: 3,
-    name: "Shopping cart design",
-    image: ImageFive,
-    link: "",
-  },
+  
+  
 ];
 
 const filterData = [
@@ -54,7 +43,7 @@ const filterData = [
   },
   {
     filterId: 3,
-    label: "Design",
+    label: "Sound Design",
   },
 ];
 
