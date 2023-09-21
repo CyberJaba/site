@@ -30,7 +30,7 @@ const personalDetails = [
 ];
 
 const jobSummary =
-  "Started as indie game developer. Made soundtracks and sound design for high-rated indie games. Developing sites and apps for independent companies. ";
+  "Started as indie game developer. Produced soundtracks and sound design for high-rated indie games. Developing sites and apps for independent companies. ";
 
 const About = () => {
   return (
