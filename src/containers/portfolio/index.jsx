@@ -18,7 +18,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    name: "SOUNDCOUD",
+    name: "SOUNDCLOUD",
     link: "https://soundcloud.com/remato1",
     image: ImageTwo,
   },
