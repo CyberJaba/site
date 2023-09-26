@@ -117,12 +117,23 @@ const Portfolio = () => {
 
                     
                     <p>{item.name}</p>
+                    <a href="https://urqt-studios.itch.io/modern-knight">
+                    <button>URQT STUDIOS</button>
+                    </a>
+
+                    <p>{item.name}</p>
                     <a href="https://github.com/CyberJaba">
-                    <button>Visit</button>
+                    <button>GIT HUB</button>
+                    </a>
+
+                    <p>{item.name}</p>
+                    <a href="https://soundcloud.com/remato1">
+                    <button>SOUNDCLOUD</button>
                     </a>
                     
                     
                   </div>
+                  
                 )}
               </div>
             </div>
