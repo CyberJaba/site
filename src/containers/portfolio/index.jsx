@@ -32,6 +32,11 @@ const portfolioData = [
   
 ];
 
+
+
+
+
+
 const filterData = [
   {
     filterId: 1,
@@ -71,6 +76,7 @@ const Portfolio = () => {
   console.log(filteredItems);
 
   return (
+    
     <section id="portfolio" className="portfolio">
       <PageHeaderContent
         headerText="My Portfolio"
@@ -79,6 +85,7 @@ const Portfolio = () => {
       <div className="portfolio__content">
         <ul className="portfolio__content__filter">
           {filterData.map((item) => (
+            
             <li
               className={item.filterId === filteredvalue ? "active" : ""}
               onClick={() => handleFilter(item.filterId)}
@@ -86,6 +93,7 @@ const Portfolio = () => {
             >
               {item.label}
             </li>
+            
           ))}
         </ul>
         <div className="portfolio__content__cards">
@@ -104,8 +112,16 @@ const Portfolio = () => {
               <div className="overlay">
                 {index === hoveredValue && (
                   <div>
+                    
+                  
+
+                    
                     <p>{item.name}</p>
+                    <a href="https://github.com/CyberJaba">
                     <button>Visit</button>
+                    </a>
+                    
+                    
                   </div>
                 )}
               </div>
@@ -116,4 +132,8 @@ const Portfolio = () => {
     </section>
   );
 };
+
+
+
+
 export default Portfolio;
